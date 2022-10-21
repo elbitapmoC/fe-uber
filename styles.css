@@ -1,17 +1,17 @@
 .progress {
-  height: 20px;
+  height: 1.4rem;
   border: 1px solid;
-  width: 500px;
+  width: 100%;
   margin: 20px 0;
-  background-color: grey;
+  background-color: ghostwhite;
   border-radius: 5px;
 }
 
 .bar {
   width: 0px;
   height: 100%;
-  background-color: red;
-  transition: width 2s ease-in 0s;
+  background-color: rgb(11, 130, 73);
+  transition: width 1s ease-in 0s;
 }
 
 .loading{
