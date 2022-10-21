@@ -1,7 +1,7 @@
 var searchRange = function (nums, target) {
   // [-1,-1] is initial answer for if target doesn't exist within the array or if the array is empty.
   let answer = [-1, -1];
-  // create a boolean
+  // boolean to check if we've gone through the first index value
   let check = true;
   // iterate through nums array
   for (let i = 0; i < nums.length; i++) {
